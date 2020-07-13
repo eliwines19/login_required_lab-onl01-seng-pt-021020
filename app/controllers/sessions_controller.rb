@@ -10,4 +10,8 @@ class SessionsController < ApplicationController
       render :landing
     end
   end
+
+  def destroy
+    session.delete :name
+  end
 end
