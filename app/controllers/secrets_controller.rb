@@ -10,11 +10,9 @@ class SecretsController < ApplicationController
     end
   end
 
-  private 
+  private
 
   def require_login
 
   end
 end
-
-
